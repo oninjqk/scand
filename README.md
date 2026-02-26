@@ -20,7 +20,7 @@ musl-gcc -Os -s -o scand main.c     # musl
 ./scand 192.168.0.10 1-65535 --timeout 150
 ```
 
-##Recommended Use
+## Recommended Use
 
 ```bash
 Embedded diagnostics.
