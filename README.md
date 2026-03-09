@@ -1,4 +1,11 @@
+## About
+
+```bash
+scand is a lightweight TCP port scanner designed for embedded systems and constrained environments.
+```
+
 ## Build
+
 ```bash
 gcc -Os -s -o scand main.c          # glibc
 musl-gcc -Os -s -o scand main.c     # musl
